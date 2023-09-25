@@ -1,0 +1,67 @@
+/* fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans';
+}
+
+/*Nav Section*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_img {
+    width: 85px;
+    height: 40px;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    column-gap: 1.8rem;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav_right,
+.About>ul,
+.Follow>ul {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.list {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Follow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.03);
+}
+
+.Follow>ul {
+    column-gap: 1rem;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.color_text_part {
+    color: #FF42A5;
+}
