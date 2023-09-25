@@ -12,8 +12,8 @@ nav {
     justify-content: space-around;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
-    padding-top: 50px;
-    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 li {
@@ -64,4 +64,80 @@ li {
 
 .color_text_part {
     color: #FF42A5;
+}
+
+/*Section 1*/
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.sec1_left{
+    /* background-image: url(../images/Group\ 14.png); */
+}
+
+.sec1_title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#sec1_bigTitle {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.sec1_left>ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+}
+
+.sec1_list {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    align-items: baseline;
+
+}
+
+.sec1_list>img {
+    position: relative;
+    top: 5px;
+
+}
+.Two_button{
+    margin-top: 50px;
+    margin-left: 3px;
+}
+
+.button1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    border-style: none;
+    margin-right: 20px;
+}
+
+.button2 {
+    background: #4EC5F7;
+}
+
+.sec1_image{
+    width: 700px;
+    height: 650px;
 }
