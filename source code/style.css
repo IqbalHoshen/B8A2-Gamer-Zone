@@ -225,6 +225,7 @@ li {
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 100px;
 }
 
 .sec4_title {
@@ -280,6 +281,7 @@ li {
 .Box:hover {
     border-radius: 16px;
     border: 4px solid #FF42A5;
+    cursor: pointer;
 }
 
 .sec4_per_image1:hover {
@@ -296,4 +298,87 @@ li {
 
 .sec4_per_image4:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+}
+
+/*Section 5*/
+.sec5 {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.pic_relative {
+    position: relative;
+    bottom: 280px;
+    right: 145px;
+}
+
+.sec5_title {
+    text-align: right;
+}
+
+/*section 6*/
+.sec6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    position: relative;
+    top: -150px;
+}
+
+.sec6_pic {
+    width: 630px;
+    height: 650px;
+}
+
+.sec_6_pic_relative {
+    position: relative;
+    right: 165px;
+    top: 115px
+}
+
+.sec6_title,
+.sec6_dec {
+    text-align: left;
+}
+
+/*Section 7*/
+.sec7 {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    margin-bottom: 100px;
+}
+
+.sec7_left {
+    width: 680px;
+}
+
+.sec7_full_list {
+    display: flex;
+    gap: 95px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.sec7_title {
+    color: #FFF;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.sec7_list_dec {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sec7_button {
+    color: #FF42A5;
+    background: #FFF;
 }
