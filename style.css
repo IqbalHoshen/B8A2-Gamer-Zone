@@ -74,7 +74,7 @@ li {
     align-items: center;
     /* background-color: #FFF; */
     margin-top: 0px;
-    background-image: url(../images/Group\ 14.png);
+    background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-size: 45% 100%;
 }
@@ -256,19 +256,19 @@ li {
 }
 
 .sec4_per_image1 {
-    background: url(../images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+    background: url(images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image2 {
-    background: url(../images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    background: url(images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image3 {
-    background: url(../images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+    background: url(images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image4 {
-    background: url(../images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    background: url(images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
 }
 
 .Box:hover>img {
@@ -286,19 +286,19 @@ li {
 }
 
 .sec4_per_image1:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/Rectangle\ 4.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image2:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image3:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/Rectangle\ 6.png), lightgray 50% / cover no-repeat;
 }
 
 .sec4_per_image4:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(images/Rectangle\ 7.png), lightgray 50% / cover no-repeat;
 }
 
 /*Section 5*/
@@ -496,7 +496,7 @@ footer>.nav_left {
     }
 
     .sec1_left {
-        background-image: url(../images/Group\ 14.png);
+        background-image: url(images/Group\ 14.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -667,7 +667,7 @@ footer>.nav_left {
     }
 
     .sec1_left {
-        background-image: url(../images/Group\ 14.png);
+        background-image: url(images/Group\ 14.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
